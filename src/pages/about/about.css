@@ -1,0 +1,54 @@
+
+.about-parent{
+    padding: 100px 100px;
+}
+.presentation{
+    height: 680px;
+}
+.about-text{
+    top: 100px;
+}
+.about-text p{
+    font-size: 1.25em;
+}
+.about-text p:first-of-type{
+    margin-top: 25px;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0;
+}
+.about-text p:nth-of-type(2){
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    margin: 16px 0;
+}
+.about-text p:last-of-type{
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;  
+    margin: 0;
+}
+.about-photo {
+    min-width: 100%;
+    min-height: 100%;
+}
+.Group-189{
+    left: -95px;
+    bottom: -60px;
+}
+
+
+@media (max-width:992px) {
+    .about-photo {
+        right: 0;
+    }
+    .presentation{
+        margin-top: 100px;
+    }
+    
+  }
+  @media (max-width: 576px){
+    .about-parent{
+        padding: 10px ;
+    }
+    
+  }

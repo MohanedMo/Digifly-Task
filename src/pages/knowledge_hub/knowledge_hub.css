@@ -1,0 +1,27 @@
+.knowledge-background{
+    height: 100%;
+    background-image: url("../../../public/assets/services/5170.svg");
+    width: 50%;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+
+
+.knowledge{
+    padding: 100px 100px 10% 100px;
+    top: 100px;
+}
+
+.knowledge-content{
+    margin-top: 50px;
+    overflow: hidden;
+    width: 100%;
+}
+
+@media (max-width: 576px) {
+    .knowledge{
+        padding: 10px;
+    }
+}

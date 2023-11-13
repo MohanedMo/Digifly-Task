@@ -1,0 +1,75 @@
+.home-parent{
+  padding: 15px 100px;
+}
+
+.group-4{
+    position: relative;
+  }
+  .group-4 h1{
+    font-size: 40px;
+  }
+  .group-4 p{
+    font-size: 1.25em;
+  }
+.company{
+  height: 680px;
+  right: -50px;
+}
+.home-photo{
+  min-width: 100%;
+  min-height: 100%;
+  
+}
+.home-parent .company .text{
+  bottom: 42px;
+  width: calc(100% - 62px);
+  left: 31px;
+height: auto;
+background: #FFFFFF 0% 0% no-repeat padding-box;
+border-radius: 30px;
+}
+  .text .photo-text{
+    padding: 0 46px;
+  }
+  .text .photo-text p{
+    padding: 23px 0;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+  }
+  .text .photo-text .arrows{
+    width: 52px;
+    height: 52px;
+    background-color: #2A2764;
+    border-radius: 50%;
+  }
+  .text .photo-text .arrows i{
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: #FFFFFF;
+  }
+  
+  @media (min-width:1400px) {
+    .text .photo-text p{
+      font-size: 1vw;
+    }
+    .text .photo-text .arrows i{
+      font-size: 1vw;
+    }
+    
+  }
+  
+  
+  @media (max-width:992px) {
+    .group-4{
+      margin-top: 150px;
+    }
+    .company{
+      margin-top: 20px;
+      right: 0;
+    }
+    .home-parent{
+            padding: 15px;
+    }
+  }
+  

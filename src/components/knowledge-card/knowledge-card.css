@@ -1,0 +1,48 @@
+.knowledge-card{
+    z-index: 2;
+}
+.dark-card{
+    background-color: #2A2764;
+    .card-content p {
+        color: #fff
+    }
+    .card-content a {
+        border-radius: 0 20px 20px 20px;
+        border: none;
+        padding: 5px 30px;
+        transition: 0.5s;
+        background-color: #fff;
+        color: #000;
+        &:hover{
+            background-color: #000;
+            color: #fff;
+            width: fit-content;
+        }
+    }
+}
+.light-card{
+    background-color: #fff;
+    .card-content p {
+        color: #000;
+    }
+    .card-content a {
+        border-radius: 0 20px 20px 20px;
+        border: none;
+        padding: 5px 30px;
+        background-color: #2A2764;
+        color: #fff;
+        transition: 0.5s;
+        &:hover{
+            background-color: #000;
+        }
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1400px) {
+    .light-card .card-content a{
+        padding: 0;
+    }
+    .dark-card .card-content a{
+        padding: 0;
+    }
+}

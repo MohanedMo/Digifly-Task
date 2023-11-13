@@ -1,0 +1,48 @@
+.field{
+    height: 51.5px;
+    overflow: hidden;
+    transition: 0.5s;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.field .head{
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(255,255,255,0.3);
+}
+.field .head i{
+    margin-right: 5px;
+    color: #2A2764;
+    transition: 0.3s;
+    font-size: 20px;
+}
+.field .head h3{
+    margin: 0;
+    font-size: 25px;
+}
+.field .content{
+    padding-bottom: 20px;
+}
+.feild .content p{
+    font-size: 20px;
+}
+.open-field{
+    height: 270px;
+}
+.field .more{
+    color: #2A2764;
+    font-weight: 600;
+    right: 0;
+}
+
+@media (max-width: 1400px){
+        .open-field{
+        height: 370px;
+    }
+    
+}
+@media (max-width: 576px){
+    .open-field{
+        height: auto;
+    }
+    
+}

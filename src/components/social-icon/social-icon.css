@@ -1,0 +1,14 @@
+.social-menu{
+    transition: 0.3s;
+    &:hover{
+        transform: rotate(-45deg);
+    }
+}
+.social-contact{
+    margin-left: 20px;
+    transition: 0.3s;
+    &:hover{
+        transform: translateX(10px) rotate(-45deg) perspective(500px) translateZ(100px);
+    }
+}
+

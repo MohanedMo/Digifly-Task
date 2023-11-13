@@ -1,0 +1,43 @@
+.fields-parent{
+    padding: 100px 100px 10% 100px;
+}
+
+
+.fields-text{
+    top: 100px;
+}
+.fields-content{
+    transition: 0.5s;
+}
+.fields-open{
+    transform: translateY(-50px);
+    transition: 0.5s;
+}
+.fields-parent .kitchens{
+    height: 680px;
+}
+.fields-parent .kitchens img:nth-of-type(2){
+    top: -32px;
+    left: -32px;
+}
+.fields-parent .kitchens img:last-of-type{
+    bottom: -32px;
+    right: -32px;
+}
+.fields-photo {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+@media (max-width: 992px){
+    .fields-parent .kitchens{
+        margin-top: 150px;
+    }
+    
+}
+@media (max-width: 576px){
+    .fields-parent{
+        padding: 32px;
+    }
+    
+  }

@@ -1,0 +1,54 @@
+.certificates{
+    padding: 100px 100px 100px;
+}
+
+.certificates .text{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.certificates .text::before{
+    content: "";
+    position: absolute;
+    height: 400px;
+    width: 4px;
+    border-radius: 5px;
+    background-color: #2A2764;
+    left: -50px;
+    top: -50px;
+}
+.certificates .text::after{
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: #2A2764;
+    left: -63px;
+    top: 0px;
+}
+.certificates .text p{
+    width: 70%;
+}
+.photos{
+    top: -150px;
+}
+
+@media (max-width: 1400px) {
+    .photos{
+        top: 0;
+        margin-top: 100px;
+    }
+    .certificates .text::before{
+        height: 300px;
+
+    }
+}
+
+@media (max-width: 576px) {
+    .certificates{
+        padding: 10px;
+    }
+    .certificates .text{
+        margin-left: 0;
+    }
+}
